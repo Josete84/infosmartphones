@@ -15,20 +15,22 @@
 		<meta http-equiv="content-language" content="es-es"/>
 		<meta http-equiv="Page-Enter" content="blendTrans (duration=5)"/>
 		<meta http-equiv="Page-Exit" content="revealTrans (duration=1.5, transition=4)"/>
-		<link rel="stylesheet" type="text/css" href="css/infosmartphones.css"/>
+		<link rel="stylesheet" type="text/css" href="css/infosmartphones.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="imagenes/infosmartphones.ico"/>
 		<style>
-			header h1 {
+			h1 {
 				size: 40px;
 				color: blue;
 				border: 1px solid;
 				text-align: center;
-				background-color: white;
 			}
 			body {
 				margin-left: 40px;
 				margin-top: 40px;
 				margin-right: 40px;
+			}
+			table,tr,td {
+				border: 1px solid;
 			}
 		</style>
 	</head>	
@@ -41,7 +43,6 @@
 				<img src="imagenes/logo.png" alt="logo de infosmartphones" width="15%">
 				</a>
 		</header>
-		<br/>
 		<nav>
 			<ul>
 				<li><a href="#">INICIO</a></li>
@@ -53,65 +54,25 @@
 				<li><a href="registro.html">Regístrate!</a></li>
 			</ul>
 		</nav>
-		<br/>
-		<div id="zona-principal">
-			<div id ="navBar">
-				<h3>MARCAS QUE SEGUIMOS</h3>
-				<ul>
-					<li><a href="samsung.html">SAMSUNG</a></li>
-					<li><a href="xiaomi.html">XIAOMI</a></li>
-					<li><a href="motorola.html">MOTOROLA</a></li>
-					<li><a href="huawei.html">HUAWEI</a></li>
-					<li><a href="apple.html">APPLE</a></li>
-				</ul>
+		<section id="content1">
+			<div id="zona-principal">
+				<div id ="navBar">
+					<h3>MARCAS QUE SEGUIMOS</h3>
+					<ul>
+						<li><a href="samsung.html">SAMSUNG</a></li>
+						<li><a href="xiaomi.html">XIAOMI</a></li>
+						<li><a href="motorola.html">MOTOROLA</a></li>
+						<li><a href="huawei.html">HUAWEI</a></li>
+						<li><a href="apple.html">APPLE</a></li>
+					</ul>
+				</div>
+			
+		
+		<p id="contacto">Tu solicitud de contacto se ha enviado correctamente
+		</br>
+		MUCHAS GRACIAS POR TU TIEMPO</p>
 			</div>
-			<div class="registro-box-contenedor">
-			<fieldset class="registro-box">
-				<legend>Regístrate en Infosmartphones</legend>
-					<form action="registrocorrecto.html" name="registro1">
-						USUARIO: <input type="text" name="usuario" value="username"><br/>
-						CONTRASEÑA: <input type="password" name="pass"><br/>
-						SEXO: <input type="radio" name="sexo">Masculino
-							<input type="radio" name="sexo">Femenino
-							<input type="radio" name="sexo">Otros<br>
-				<fieldset>
-					<legend>Intereses</legend>
-						RANGO DE PRECIOS: 
-							<select name="rango precio" size="5" multiple="true">
-								<optgroup label="Gama baja" multiple="true">
-									<option value="100y300" selected="true">Entre 100€ y 300€</option>
-								<optgroup label="Gama media" multiple="true">
-									<option value="300y600">Entre 300€ y 600€</option>
-								<optgroup label="Gama alta" multiple="true">
-									<option value="600y900">Entre 600€ y 900€</option>
-								<optgroup label="Gama premium" multiple="true">
-									<option value="900y2000">Entre 900€ y 2000€</option>
-							</select>
-						<br/>
-						MARCAS FAVORITAS: 
-							<input type="checkbox" name="marcas" value="sa">Samsung
-							<input type="checkbox" name="marcas" value="xi">Xiaomi
-							<input type="checkbox" name="marcas" value="mo">Motorola
-							<input type="checkbox" name="marcas" value="op">Oppo
-							<input type="checkbox" name="marcas" value="hu">Huawei
-							<input type="checkbox" name="marcas" value="ho">Honor
-							<input type="checkbox" name="marcas" value="re">Realme
-							<input type="checkbox" name="marcas" value="ap">Apple
-						<br/>
-				</fieldset>
-				<fieldset>
-					<legend>Opina sobre nosotros y envía el registro</legend>
-						COMENTARIO: 
-							<textarea name="comentario" rows="2" cols="30"></textarea><br/>
-							<button type="submit" value="enviar">
-							<img src="imagenes/enviar.png" width="30" height="30"></img>
-							</button>
-							<input type="reset" value="BORRAR TODO Y VOLVER A EMPEZAR"></input>
-				</fieldset>
-				</form>
-			</fieldset>
-			</div>
-		</div>
+		</section>
 		<footer>
 			<p>Información de contacto: <a href="mailto:correodeprueba@huu.com">ADMIN</a>
 			</p>

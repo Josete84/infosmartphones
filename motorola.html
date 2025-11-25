@@ -9,7 +9,7 @@
 		<meta http-equiv="content-language" content="es-es" />
 		<meta http-equiv="Page-Enter" content="blendTrans (duration=5)" />
 		<meta http-equiv="Page-Exit" content="revealTrans (duration=1.5, transition=4)" />
-		<link rel="stylesheet" type="text/css" href="infosmartphones.css" />
+		<link rel="stylesheet" type="text/css" href="css/infosmartphones.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="imagenes/infosmartphones.ico" />
 		<style type="text/css">
 			h1 {
@@ -26,40 +26,71 @@
 		</style>
 	</head>
 	<body>
-		<div id="fechaHora" style="text-align: center; font-size: 1.5em; margin-top: 20px;"></div>
-		<h1>INFOSMARTPHONES</h1>
-		<p align="center">Toda la información sobre los Smartphones más actuales</p>
-		<script src="hora.js"></script>
-		<center>
+		<header>
+			<h1>INFOSMARTPHONES</h1>
+			<p align="center">Toda la información sobre los Smartphones más actuales</p>
 			<a href="https://josete84.github.io/infosmartphones" />
 			<img src="imagenes/logo.png" alt="logo de infosmartphones" width="15%">
 			</a>
-		</center>
+		</header>
 		<br>
-		<table width="100%" bgcolor="#333">
-			<tr>
-				<td align="center">
-					<a href="https://josete84.github.io/infosmartphones" style="color:white; text-decoration:none; margin: 10px;">Inicio</a>
-					<a href="samsung.html" style="color:white; text-decoration:none; margin: 10px;">Samsung</a>
-					<a href="xiaomi.html" style="color:white; text-decoration:none; margin: 10px;">Xiaomi</a>
-					<a href="motorola.html" style="color:white; text-decoration:none; margin: 10px;">Motorola</a>
-					<a href="oppo.html" style="color:white; text-decoration:none; margin: 10px;">Oppo</a>
-					<a href="huawei.html" style="color:white; text-decoration:none; margin: 10px;">Huawei</a>
-					<a href="honor.html" style="color:white; text-decoration:none; margin: 10px;">Honor</a>
-					<a href="realme.html" style="color:white; text-decoration:none; margin: 10px;">Realme</a>
-					<a href="apple.html" style="color:white; text-decoration:none; margin: 10px;">Apple</a>
-				</td>
-			</tr>
-		</table>
-		<center>
-			<h2>Motorola</h2>
-			<p>Información sobre móviles de Motorola</p>
-		</center>
-		<center>
-			<a href="https://josete84.github.io/infosmartphones/">Infosmartphones</a> © 2025 by <a href="https://creativecommons.org">José Luis Martín</a> está licenciado bajo <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em";">
-		</center>
+		<nav>
+			<ul id="menu-completo">
+				<li class="menu-item"><a href="#">INICIO</a></li>
+				<li class="menu-item"><a href="contacto.html">Contáctanos</a></li>
+				<li class="menu-item"><a href="registro.html">Regístrate!</a></li>
+				<li class="redes-item"><a href="https://facebook.com" target="_blank" rel="noopener"><img src="imagenes/logoface.png" alt="Facebook" width="20"></a></li>
+				<li class="redes-item"><a href="https://twitter.com" target="_blank" rel="noopener"><img src="imagenes/logox.png" alt="Twitter" width="20"></a></li>
+				<li class="redes-item"><a href="https://instagram.com" target="_blank" rel="noopener"><img src="imagenes/logoinsta.jpg" alt="Instagram" width="20"></a></li>
+			</ul>
+		</nav>
+		<div id="zona-principal">
+			<div id ="navBar">
+				<h3>MARCAS QUE SEGUIMOS</h3>
+				<ul>
+					<li><a href="samsung.html">SAMSUNG</a></li>
+					<li><a href="xiaomi.html">XIAOMI</a></li>
+					<li><a href="motorola.html">MOTOROLA</a></li>
+					<li><a href="huawei.html">HUAWEI</a></li>
+					<li><a href="apple.html">APPLE</a></li>
+				</ul>
+			</div>
+			<div id="motorola">
+				<h2>MOTOROLA</h2>
+				<p>Información sobre móviles de MOTOROLA</p>
+				<img src="imagenes/motorola.png" alt="motorola" width="20%"/>
+				<div id="articulos-todos">
+			<div class="articulo-box">
+				<h4>Samsung Galaxy S25</h4>
+				<p>Pantalla AMOLED, Snapdragon Gen 5...</p>
+			</div>
+				<div class="articulo-box">
+					<h4>Samsung Galaxy Z Flip 6</h4>
+					<p>Diseño plegable, cámara dual...</p>
+				</div>
+			  <!-- Más cajas de artículos -->
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>Información de contacto: <a href="mailto:correodeprueba@huu.com">ADMIN</a>
+			</p>
+			<p>
+				<a href="https://josete84.github.io/infosmartphones/">Infosmartphones</a> © 2025 by
+				<a href="https://creativecommons.org">José Luis Martín</a> está licenciado bajo
+				<a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+			</p>
+			<p>
+				<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+					 alt="imagen creative commons"
+					 style="max-width: 1em; max-height: 1em; margin-left: .2em;" />
+				<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+					 alt="atribución"
+					 style="max-width: 1em; max-height: 1em; margin-left: .2em;" />
+				<img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"
+					 alt="uso no comercial"
+					 style="max-width: 1em; max-height: 1em; margin-left: .2em;" />
+			</p>
+		</footer>
 	</body>
 </html>
-
-
-

@@ -9,57 +9,80 @@
 		<meta http-equiv="content-language" content="es-es" />
 		<meta http-equiv="Page-Enter" content="blendTrans (duration=5)" />
 		<meta http-equiv="Page-Exit" content="revealTrans (duration=1.5, transition=4)" />
-		<link rel="stylesheet" type="text/css" href="infosmartphones.css" />
+		<link rel="stylesheet" type="text/css" href="css/infosmartphones.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="imagenes/infosmartphones.ico" />
 		<style type="text/css">
-			h1 {
+			* {
+				font-family: Roboto, sans-serif;
+			}
+			header h1 {
 				size: 40px;
 				color: blue;
 				border: 1px solid;
 				text-align: center;
+				background-color: white;
 			}
 			body {
 				margin-left: 40px;
 				margin-top: 40px;
 				margin-right: 40px;
 			}
+			#container {
+				text-align: center;
+				background-color: grey;
+			}
+			#content {
+				background-color: grey;
+			}
 		</style>
 	</head>
 	<body>
 		<div id="fechaHora" style="text-align: center; font-size: 1.5em; margin-top: 20px;"></div>
-		<h1>INFOSMARTPHONES</h1>
-		<p align="center">Toda la información sobre los Smartphones más actuales</p>
 		<script src="hora.js"></script>
-		<center>
+		<header>
+			<h1>INFOSMARTPHONES</h1>
+			<p align="center">Toda la información sobre los Smartphones más actuales</p>
 			<a href="https://josete84.github.io/infosmartphones" />
 			<img src="imagenes/logo.png" alt="logo de infosmartphones" width="15%">
 			</a>
-		</center>
+		</header>
 		<br>
-		<table width="100%" bgcolor="#333">
-			<tr>
-				<td align="center">
-					<a href="https://josete84.github.io/infosmartphones" style="color:white; text-decoration:none; margin: 10px;">Inicio</a>
-					<a href="samsung.html" style="color:white; text-decoration:none; margin: 10px;">Samsung</a>
-					<a href="xiaomi.html" style="color:white; text-decoration:none; margin: 10px;">Xiaomi</a>
-					<a href="motorola.html" style="color:white; text-decoration:none; margin: 10px;">Motorola</a>
-					<a href="oppo.html" style="color:white; text-decoration:none; margin: 10px;">Oppo</a>
-					<a href="huawei.html" style="color:white; text-decoration:none; margin: 10px;">Huawei</a>
-					<a href="honor.html" style="color:white; text-decoration:none; margin: 10px;">Honor</a>
-					<a href="realme.html" style="color:white; text-decoration:none; margin: 10px;">Realme</a>
-					<a href="apple.html" style="color:white; text-decoration:none; margin: 10px;">Apple</a>
-				</td>
-			</tr>
-		</table>
-		<center>
+		<div id="container">
+			<a href="https://josete84.github.io/infosmartphones">INICIO</a>
+			<a href="samsung.html">SAMSUNG</a>
+			<a href="xiaomi.html">XIAOMI</a>
+			<a href="motorola.html">MOTOROLA</a>
+			<a href="oppo.html">OPPO</a>
+			<a href="huawei.html">HUAWEI</a>
+			<a href="honor.html">HONOR</a>
+			<a href="realme.html">REALME</a>
+			<a href="apple.html">APPLE</a>
+			<br/>
+		</div>
+		<section id="oppo">
 			<h2>Oppo</h2>
 			<p>Información sobre móviles de Oppo</p>
-		</center>
-		<center>
-			<a href="https://josete84.github.io/infosmartphones/">Infosmartphones</a> © 2025 by <a href="https://creativecommons.org">José Luis Martín</a> está licenciado bajo <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em";">
-		</center>
+			<img src="imagenes/oppo.png" alt="oppo" width="20%"/>
+		</section>
+		<footer>
+			<p>Información de contacto: <a href="mailto:correodeprueba@huu.com">ADMIN</a>
+			</p>
+			<p>
+				<a href="https://josete84.github.io/infosmartphones/">Infosmartphones</a> © 2025 by
+				<a href="https://creativecommons.org">José Luis Martín</a> está licenciado bajo
+				<a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+			</p>
+			<p>
+				<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+					 alt="imagen creative commons"
+					 style="max-width: 1em; max-height: 1em; margin-left: .2em;" />
+				<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+					 alt="atribución"
+					 style="max-width: 1em; max-height: 1em; margin-left: .2em;" />
+				<img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"
+					 alt="uso no comercial"
+					 style="max-width: 1em; max-height: 1em; margin-left: .2em;" />
+			</p>
+		</footer>
 	</body>
 </html>
-
-
-

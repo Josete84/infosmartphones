@@ -65,52 +65,21 @@
 					<li><a href="apple.html">APPLE</a></li>
 				</ul>
 			</div>
-			<div class="registro-box-contenedor">
-			<fieldset class="registro-box">
-				<legend>Regístrate en Infosmartphones</legend>
-					<form action="registrocorrecto.html" name="registro1">
-						USUARIO: <input type="text" name="usuario" value="username"><br/>
-						CONTRASEÑA: <input type="password" name="pass"><br/>
-						SEXO: <input type="radio" name="sexo">Masculino
-							<input type="radio" name="sexo">Femenino
-							<input type="radio" name="sexo">Otros<br>
-				<fieldset>
-					<legend>Intereses</legend>
-						RANGO DE PRECIOS: 
-							<select name="rango precio" size="5" multiple="true">
-								<optgroup label="Gama baja" multiple="true">
-									<option value="100y300" selected="true">Entre 100€ y 300€</option>
-								<optgroup label="Gama media" multiple="true">
-									<option value="300y600">Entre 300€ y 600€</option>
-								<optgroup label="Gama alta" multiple="true">
-									<option value="600y900">Entre 600€ y 900€</option>
-								<optgroup label="Gama premium" multiple="true">
-									<option value="900y2000">Entre 900€ y 2000€</option>
-							</select>
-						<br/>
-						MARCAS FAVORITAS: 
-							<input type="checkbox" name="marcas" value="sa">Samsung
-							<input type="checkbox" name="marcas" value="xi">Xiaomi
-							<input type="checkbox" name="marcas" value="mo">Motorola
-							<input type="checkbox" name="marcas" value="op">Oppo
-							<input type="checkbox" name="marcas" value="hu">Huawei
-							<input type="checkbox" name="marcas" value="ho">Honor
-							<input type="checkbox" name="marcas" value="re">Realme
-							<input type="checkbox" name="marcas" value="ap">Apple
-						<br/>
-				</fieldset>
-				<fieldset>
-					<legend>Opina sobre nosotros y envía el registro</legend>
-						COMENTARIO: 
-							<textarea name="comentario" rows="2" cols="30"></textarea><br/>
-							<button type="submit" value="enviar">
-							<img src="imagenes/enviar.png" width="30" height="30"></img>
-							</button>
-							<input type="reset" value="BORRAR TODO Y VOLVER A EMPEZAR"></input>
-				</fieldset>
-				</form>
-			</fieldset>
-			</div>
+				<div class="formulario-centro">
+					<form class="contacto-formulario" action="enviado.html" method="post">
+						<h2>¿Tienes dudas o sugerencias?</h2>
+						<label for="nombre">Nombre:</label>
+						<input type="text" id="nombre" name="nombre" required>
+						</br>
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required>
+						</br>
+						<label for="mensaje">Mensaje:</label>
+						<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+						</br>
+						<button type="submit" href="enviado.html">Enviar</button>
+					</form>
+				</div>
 		</div>
 		<footer>
 			<p>Información de contacto: <a href="mailto:correodeprueba@huu.com">ADMIN</a>
