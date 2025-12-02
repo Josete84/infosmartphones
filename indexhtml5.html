@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!--Infosmartphones.html-->
 <html>
+<!--Ahora va la cabecera-->
 	<head>
 		<title>Infosmartphones</title>
 		<meta charset="UTF-8"/>
@@ -33,6 +34,7 @@
 			}
 		</style>
 	</head>	
+<!--A continuación va el cuerpo-->
 	<body>
 		<div id="fechaHora"></div>
 		<script src="js/hora.js"></script>
@@ -68,33 +70,58 @@
 						<li><a href="apple.html">APPLE</a></li>
 					</ul>
 				</div>
-				<div class="producto-box">
-					<img src="imagenes/galaxys25.png" alt="galaxys25" style="display:block; margin:auto; width:650px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08); margin-bottom:16px;">
-					<div class="producto-desc">
-						<h2>Samsung Galaxy S25</h2>
-						<p>
-							Descubre el Galaxy S25 y el S25+. Un diseño elegante, prémium envuelto en un marco de aluminio resistente con una pantalla inmersiva, cámara sofisticada y ahora más fino para una sujeción más cómoda.
-						</p>
-						<table>
-							<caption><strong>Ficha técnica</strong></caption>
-							<tr><td><b>Procesador</b></td><td>Qualcomm Snapdragon 8 Elite (Octa-Core, hasta 4.47 GHz)<br>Adreno 830 GPU</td></tr>
-							<tr><td><b>Pantalla</b></td><td>Dynamic AMOLED 2X, 6.2" (156.4mm), FHD+ (2340x1080), 16M colores, 120 Hz</td></tr>
-							<tr><td><b>Cámara principal</b></td><td>Triple: 50 MP f/1.8 + 10 MP f/2.4 (Zoom 3x) + 12 MP f/2.2 (Ultra gran angular)<br>OIS, flash, vídeo 8K UHD@30fps, zoom óptico 3x/2x, digital hasta 30x</td></tr>
-							<tr><td><b>Cámara frontal</b></td><td>12 MP f/2.2, autoenfoque</td></tr>
-							<tr><td><b>Memoria RAM</b></td><td>12 GB LPDDR5X</td></tr>
-							<tr><td><b>Almacenamiento</b></td><td>128/256/512GB UFS 4.0 (aprox. 92.5GB libres en modelo 128GB)</td></tr>
-							<tr><td><b>Batería</b></td><td>4000 mAh, no extraíble, hasta 29h vídeo, Carga rápida e inalámbrica</td></tr>
-							<tr><td><b>Sistema operativo</b></td><td>Android 15, OneUI 7</td></tr>
-							<tr><td><b>Redes</b></td><td>Dual-SIM (NanoSIM + eSIM), 2G/3G/4G/5G (Sub6), múltiples bandas</td></tr>
-							<tr><td><b>Conectividad</b></td><td>USB-C 3.2, Wi-Fi 7, Bluetooth 5.4, NFC, GPS GNSS completo</td></tr>
-							<tr><td><b>Sensores</b></td><td>Acelerómetro, Barómetro, Huella dactilar (pantalla), Giroscopio, Luz ambiental, Proximidad</td></tr>
-							<tr><td><b>Dimensiones / Peso</b></td><td>146.9 x 70.5 x 7.2 mm / 162 g</td></tr>
-							<tr><td><b>Resistencia</b></td><td>IP68 agua/polvo, Clase energética B</td></tr>
-							<tr><td><b>Audio / Vídeo</b></td><td>Estéreo, formatos: MP4, MKV, MP3, FLAC, UHD 8K@60fps</td></tr>
-						</table>
+				<div id="bloque-centro">
+					<h3>LOS MÁS CONSULTADOS</h3>
+					<div id="articulos-todos">
+						<a class="enlacearticulo" href="iphone16.html">
+							<div class="articulo-box">
+								<h4>Iphone 16</h4>
+								<img src="imagenes/iphone16.png" alt="iphone 16" width="60%">
+								<p>Pantalla Super Retina XDR OLED de 6,1" HDR</p>
+								<p>Dynamic Island, Chip A18, cámara de 48 MPx, Modo noche, Face ID, Siri</p>
+							</div>
+						</a>
+						<a class="enlacearticulo" href="iphone15.html">
+							<div class="articulo-box">
+								<h4>Iphone 15</h4>
+								<img src="imagenes/iphone15.png" alt="iphone 15" width="100%">
+								<p>Pantalla Super Retina XDR OLED de 6,1", pantalla HDR</p>
+								<p>Dynamic Island, chip A16 Bionic, cámara de 48 Mpx, Face ID, Siri...</p>
+							</div>
+						</a>
+						<a class="enlacearticulo" href="galaxys25.html">
+							<div class="articulo-box">
+								<h4>Samsung Galaxy s25</h4>
+								<img src="imagenes/galaxys25.png" alt="galaxy s25" width="100%">
+								<p>Pantalla Dynamic AMOLED 2X, 6.2" (156.4mm), FHD+ (2340x1080), 16M colores, 120 Hz</p>
+								<p>Qualcomm Snapdragon 8 Elite (Octa-Core, hasta 4.47 GHz)</p>
+							</div>
+						</a>
+						<a class="enlacearticulo" href="xiaomi15.html">
+							<div class="articulo-box">
+								<h4>Xiaomi 15</h4>
+								<img src="imagenes/xiaomi15.png" alt="xiaomi 15" width="90%">
+								<p>Pantalla AMOLED QHD+ de 6,4"</p>
+								<p>Procesador Snapdragon 8 Gen 3</p>
+								<p>Cámara principal triple 50+50+12MP</p>
+							</div>
+						</a>
 					</div>
+					<div style="width: 100%; margin:36px 0; text-align:center;">
+						<span style="display:inline-block; padding: 0 18px; font-weight: bold; color: black; background: #fff; position: relative; z-index: 1;">
+							Otros contenidos
+						</span>
+						<hr style="height:0; margin:-13px 0 0 0; border:none; border-top:2px solid #ccc; width:85%;">
+					</div>
+					<section id="multimedia" style="text-align: center;">
+						<iframe width="560" 
+								height="315" 
+								src="https://www.youtube.com/embed/6t-BShqPbyY?si=uwTR7y_1vxfxItJT" 
+								title="YouTube video player" 
+								frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+						</iframe>
+					</section>
 				</div>
-			</div>
 		</section>
 		<footer>
 			<p>Información de contacto: <a href="mailto:correodeprueba@huu.com">ADMIN</a>

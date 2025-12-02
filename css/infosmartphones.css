@@ -4,6 +4,39 @@
 header {
 	text-align: center;
 }
+#fechaHora{
+	text-align: center;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.logo-header {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 20px;
+  	margin-bottom: 20px;
+}
+
+.logo-img {
+  	max-height: 200px;
+}
+
+.logo-texto {
+  	text-align: left;
+}
+
+.logo-texto h1 {
+  	margin: 0;
+  	font-size: 2em;
+  	color: #0057b8;
+}
+
+.logo-texto p {
+  	margin: 4px 0;
+  	font-size: 1.1em;
+  	color: #333;
+}
+
 #videolocal {
 	text-align: center;
 }
@@ -33,6 +66,7 @@ nav ul li a {
 	padding: 12px 15px;
 	color: blue;
 	text-decoration: none;
+	
 }
 
 nav ul li a:hover {
@@ -44,7 +78,7 @@ nav ul li a:hover {
 	margin-top: 10px;
 	padding: 5px; 
 	background-color: grey; 
-	border-right: 1px solid; 
+	border-right: 1px solid;
 }
 #navBar a {
 	display: flex;
@@ -52,6 +86,10 @@ nav ul li a:hover {
 	color: blue;
 	text-decoration: none;
 	border-bottom: 1px solid;
+}
+#navBar ul {
+	list-style-type: none;
+	padding-left: 0;
 }
 #navBar a:hover {
 	background-color: #d3d3d3;
@@ -94,10 +132,11 @@ nav ul li a:hover {
 	background: #f7f7f7;
 	border: 1px solid #ccc;
 	border-radius: 8px;
-	width: 230px;
+	width: 300px;
 	margin-bottom: auto;
 	padding: 18px;
 	box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+	
 }
 
 .articulo-box h4 {
@@ -108,6 +147,13 @@ nav ul li a:hover {
 .articulo-box p {
 	font-size: 0.95em;
 	color: #222;
+}
+.enlacearticulo {
+  text-decoration: none;
+  color: inherit;
+}
+.enlacearticulo:hover {
+	zoom: 105%;
 }
 .registro-box {
 	background: #f7f7f7;
@@ -173,7 +219,8 @@ nav ul li a:hover {
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 24px;
-  max-width: 660px;
+  max-width: 900px;
+  height: auto;
   margin: 30px auto;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -181,7 +228,7 @@ nav ul li a:hover {
 
 .producto-img {
   float: left;
-  width: 160px;
+  width: 260px;
   margin-right: 28px;
   border-radius: 6px;
   box-shadow: 0 2px 9px rgba(0,0,0,0.09);
