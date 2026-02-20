@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="smartphones.xsl"?>
+<catalogo>
+  <smartphone id="iphone16">
+    <titulo>Iphone 16</titulo>
+    <imagen>imagenes/iphone16.png</imagen>
+    <alt>iphone 16</alt>
+    <ancho>60%</ancho>
+    <descripcion>Pantalla Super Retina XDR OLED de 6,1" HDR</descripcion>
+    <descripcion>Dynamic Island, Chip A18, cámara de 48 MPx, Modo noche, Face ID, Siri</descripcion>
+    <enlace>iphone16.html</enlace>
+  </smartphone>
+  <smartphone id="iphone15">
+    <titulo>Iphone 15</titulo>
+    <imagen>imagenes/iphone15.png</imagen>
+    <alt>iphone 15</alt>
+    <ancho>100%</ancho>
+    <descripcion>Pantalla Super Retina XDR OLED de 6,1", pantalla HDR</descripcion>
+    <descripcion>Dynamic Island, chip A16 Bionic, cámara de 48 Mpx, Face ID, Siri...</descripcion>
+    <enlace>iphone15.html</enlace>
+  </smartphone>
+  <smartphone id="galaxys25">
+    <titulo>Samsung Galaxy s25</titulo>
+    <imagen>imagenes/galaxys25.png</imagen>
+    <alt>galaxy s25</alt>
+    <ancho>100%</ancho>
+    <descripcion>Pantalla Dynamic AMOLED 2X, 6.2" (156.4mm), FHD+ (2340x1080), 16M colores, 120 Hz</descripcion>
+    <descripcion>Qualcomm Snapdragon 8 Elite (Octa-Core, hasta 4.47 GHz)</descripcion>
+    <enlace>galaxys25.html</enlace>
+  </smartphone>
+  <smartphone id="xiaomi15">
+    <titulo>Xiaomi 15</titulo>
+    <imagen>imagenes/xiaomi15.png</imagen>
+    <alt>xiaomi 15</alt>
+    <ancho>90%</ancho>
+    <descripcion>Pantalla AMOLED QHD+ de 6,4"</descripcion>
+    <descripcion>Procesador Snapdragon 8 Gen 3</descripcion>
+    <descripcion>Cámara principal triple 50+50+12MP</descripcion>
+    <enlace>xiaomi15.html</enlace>
+  </smartphone>
+</catalogo>
